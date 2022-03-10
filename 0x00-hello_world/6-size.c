@@ -5,7 +5,7 @@
  * sizeof evaluates the size of a variable
  * Return: 0 if exited properly, non-zero otherwise
  */
-int main()
+int main(void)
 {
 	char charType;
 	int intType;

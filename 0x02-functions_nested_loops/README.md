@@ -13,3 +13,8 @@ Returns -1 and prints - if n is less than zero**
 **8-24_hours.c - This function prints prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.**
 **9-times_table.c - prints the 9 times table, starting with 0**
 **10-add.c - adds two integers and returns the result**
+**file 11-print_to_98.c - a function that prints all natural numbers from n to 98, followed by a new line.**
+**file 100-times_table - a function that prints the n times table, starting with 0.If n is greater than 15 or less than 0 the function should not print anything
+**file 101-natural.c - a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.**
+**file 102-fibonacci.c - a program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.The numbers must be separated by comma, followed by a space ,**
+**file 103-fibonacci.c - a program that finds and prints the sum of the even-valued terms, followed by a new line by considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000**

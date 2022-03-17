@@ -2,15 +2,11 @@
 
 /**
  * mul - mutiplies two integers
- * @a : first integer to multiply
- * @b : second integer
+ * @a: integer type number
+ * @b: int type number
  * Return: product of integers
  */
 int mul(int a, int b);
 {
-	int x;
-
-	result = a * b;
-
-	return (x);
+	return (a * b);
 }

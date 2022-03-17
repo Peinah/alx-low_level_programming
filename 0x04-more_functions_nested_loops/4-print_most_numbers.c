@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * most_numbers - print the numbers from 0 to 9
+ * print_most_numbers - print the numbers from 0 to 9
  * Description: You can only use _putchar twice
  */
-void most_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 

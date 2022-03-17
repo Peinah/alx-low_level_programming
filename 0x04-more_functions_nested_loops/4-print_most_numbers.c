@@ -11,11 +11,9 @@ void more_numbers(void)
 	i = 0;
 	while (i < 10)
 	{
-		_putchar(i + '0');
+		if (i != 2 && i != 4)
+			_putchar(i + '0');
 		i++;
 	}
-
-	return (i != 2 && i != 4);
-
 	_putchar('\n');
 }

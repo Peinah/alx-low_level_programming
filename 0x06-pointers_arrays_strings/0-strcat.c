@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strcat - appends src string to dest string
- * dest - argument of type pointer 
- * src: pointerto concatenate
+ * _strcat - appends src to dest string
+ * @dest: argument of type pointer
+ * @src: pointer to concatenate
  * Return: returns a pointer to the resulting string dest
  */
 char *_strcat(char *dest, char *src)

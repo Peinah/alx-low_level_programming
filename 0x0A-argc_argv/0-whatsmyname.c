@@ -1,5 +1,5 @@
-#include"main.h"
 #include <stdio.h>
+#include"main.h"
 /**
  * main - outputs name
  * @argc:contains number  arguments supplied to program

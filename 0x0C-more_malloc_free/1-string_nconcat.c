@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+
 /**
- * string_nconcat - concatenates two strings
+ * *string_nconcat - concatenates two strings
  * @s1: input
  * @s2: input
  * @n: input

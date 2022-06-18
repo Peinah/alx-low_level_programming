@@ -37,13 +37,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 
 	for (ab = 0; ab < i; ab++)
+	{
 		arr[ab] = s1[ab];
+	}
 	for (ab2 = 0; ab2 < j; ab2++)
 	{
 		arr[ab] = s2[ab2];
 		ab++;
 	}
+
 	ab++;
 	arr[ab] = '\0';
+
 	return (arr);
 }

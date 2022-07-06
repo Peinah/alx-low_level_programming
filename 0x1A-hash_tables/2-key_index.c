@@ -1,22 +1,14 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "hash_tables.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always EXIT_SUCCESS.
+ * key_index - returns the index of a key
+ * @key: key
+ * @size: size of the array of the hash table
+ * Return: index
  */
-int main(void)
+unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
-	char *s;
+	unsigned long int index = hash_djb2(key) % size;
 
-	s = "cisfun";
-	printf("%lu\n", hash_djb2((unsigned char *)s));
-	s = "Don't forget to tweet today";
-	printf("%lu\n", hash_djb2((unsigned char *)s));
-	s = "98";
-	printf("%lu\n", hash_djb2((unsigned char *)s));
-	return (EXIT_SUCCESS);
+	return (index);
 }
